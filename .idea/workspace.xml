@@ -1,19 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c003d92d-64c0-4476-91a6-1d36217e5537" name="Default Changelist" comment="" />
+    <list default="true" id="c003d92d-64c0-4476-91a6-1d36217e5537" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/firstapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firstproject/Templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/firstapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/firstproject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/firstproject/urls.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1TIwjlAmnQbxwiWPjLgW7Wx8CW5" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../workspacePython/Assignments" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -45,7 +60,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
