@@ -6,7 +6,7 @@ from django.http import HttpResponse
 
 def home(request):
     dict = {'name': 'This is dict'}
-    return render(request, 'index.html', context=dict)
+    return render(request, 'login.html', context=dict)
 
 
 def about(request):
