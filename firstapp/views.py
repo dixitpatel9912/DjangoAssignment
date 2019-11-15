@@ -1,17 +1,14 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from . import forms
 
 
 # Create your views here.
 
 def home(request):
-    dict = {'name': 'This is dict'}
-    return render(request, 'login.html', context=dict)
+    return render(request, 'index.html')
 
 
-def about(request):
-    return HttpResponse("This is my about page")
-
-
-def contact(request):
-    return HttpResponse("Contact us page")
+def form_view(request):
+    form = forms.Loginform
+    return render(request, 'forms.html', {'form': form})

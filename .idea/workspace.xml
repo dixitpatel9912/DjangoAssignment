@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c003d92d-64c0-4476-91a6-1d36217e5537" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/forms.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firstapp/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/firstapp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/firstapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/firstapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/firstapp/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +31,7 @@
   <component name="ProjectId" id="1TIwjlAmnQbxwiWPjLgW7Wx8CW5" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
