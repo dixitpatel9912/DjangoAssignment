@@ -11,4 +11,12 @@ def home(request):
 
 def form_view(request):
     form = forms.Loginform
+    if request.method == "POST":
+        form = forms.Loginform(request.POST)
+        if form.is_valid():
+            print("Validations worked")
+            print("Name:" + form.cleaned_data['name'])
+            print("Email_id:" + form.cleaned_data['email'])
+            print("password:" + form.cleaned_data['password'])
+            print("verified_email:" + form.cleaned_data['verify_email'])
     return render(request, 'forms.html', {'form': form})
