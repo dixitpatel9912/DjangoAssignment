@@ -3,6 +3,7 @@ from firstapp import views
 
 urlpatterns = [
     path('', views.home, name="home"),
-    path('formpage/', views.form_view, name="form"),
+    path('formpage/', views.create, name="form"),
+    path('success/', views.success, name="form"),
 
 ]

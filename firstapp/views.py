@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render , redirect
 from django.http import HttpResponse
 from . import forms
 
@@ -9,14 +9,18 @@ def home(request):
     return render(request, 'index.html')
 
 
-def form_view(request):
-    form = forms.Loginform
+def create(request):
     if request.method == "POST":
-        form = forms.Loginform(request.POST)
+        form = forms.Login(request.POST)
         if form.is_valid():
-            print("Validations worked")
-            print("Name:" + form.cleaned_data['name'])
-            print("Email_id:" + form.cleaned_data['email'])
-            print("password:" + form.cleaned_data['password'])
-            print("verified_email:" + form.cleaned_data['verify_email'])
-    return render(request, 'forms.html', {'form': form})
+            try:
+                form.save()
+                return redirect('/success')
+            except:
+                print("error")
+    else:
+        form = forms.Login
+    return render(request, 'form.html', {'form': form})
+
+def success(request):
+    return render(request,'success.html')

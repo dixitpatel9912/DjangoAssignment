@@ -1,8 +1,7 @@
 from django.db import models
 
-
 # Create your models here.
-
+'''
 class Login(models.Model):
     name = models.CharField(max_length=30)
     email = models.EmailField(max_length=50, unique=True)
@@ -28,3 +27,12 @@ class Student(models.Model):
 
     class Meta:
         verbose_name_plural = "Student"
+'''
+
+
+class Update_data(models.Model):
+    name = models.CharField(max_length=50)
+    email = models.EmailField(max_length=50)
+    verify_email = models.EmailField(max_length=50)
+    text = models.CharField(max_length=50)
+    password = models.CharField(max_length=50)
